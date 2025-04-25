@@ -1,16 +1,16 @@
-type User = {
+type UserUpdate = {
   name: string;
   surname: string;
   email: string;
   password: string;
 };
 
-function createOrUpdateUser(initialValues: Partial<User>) {
-}
+function createOrUpdateUser(initialValues: Partial<UserUpdate>) {
+console.log("Updating user with:", initialValues);}
 
 createOrUpdateUser({
   email: "user@mail.com",
-  password: "password123"
+  password: "password123",
 });
 
 // Ви маєте форму реєстрації користувачів. 

@@ -8,7 +8,6 @@ interface User {
   };
 }
 
-
 const mango: User = {
   name: 'Mango',
   age: 30,
